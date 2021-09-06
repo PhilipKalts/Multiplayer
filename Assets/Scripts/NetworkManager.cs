@@ -23,7 +23,10 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
 
 
-
+	public void CreateRoom(string roomName)
+    {
+		PhotonNetwork.CreateRoom(roomName);
+    }
 
     public override void OnCreatedRoom()
     {
