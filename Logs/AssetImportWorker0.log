@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16309 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Pc-1011/Documents/DESKTOP/Unity Projects/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57741
+60607
 Successfully changed project path to: C:/Users/Pc-1011/Documents/DESKTOP/Unity Projects/Test
 C:/Users/Pc-1011/Documents/DESKTOP/Unity Projects/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -30,42 +30,42 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
     Vendor:   
     VRAM:     5967 MB
-    Driver:   30.0.14.7196
+    Driver:   30.0.14.9613
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001753 seconds.
+Registered in 0.001943 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  1.596 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005770 seconds.
+Registered in 0.007377 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.346 seconds
+- Completed reload, in  1.241 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1913 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.8 MB.
-System memory in use after: 90.9 MB.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2342.
-Total: 2.136000 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.832500 ms  DeleteObjects: 0.070000 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 2.936500 ms (FindLiveObjects: 0.464600 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.298100 ms  DeleteObjects: 0.132400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,135 +79,497 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae81583a7ab756806fe4b15cd3df8022') in 0.030694 seconds 
-  Import took 0.033380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.532468 seconds.
-  path: Packages/com.unity.animation.rigging/package.json
-  artifactKey: Guid(f0b9721a4b1f95d4fada62c05f986049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/package.json using Guid(f0b9721a4b1f95d4fada62c05f986049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b00e87a16f4a940afcf554b5d68c7') in 0.005096 seconds 
-  Import took 0.007496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.011662 seconds.
-  path: Packages/com.unity.animation.rigging/Runtime/Unity.Animation.Rigging.asmdef
-  artifactKey: Guid(7f7d1af65c2641843945d409d28f2e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/Runtime/Unity.Animation.Rigging.asmdef using Guid(7f7d1af65c2641843945d409d28f2e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1d2c830f33d84d1f4ce2ec100b2d35') in 0.004805 seconds 
-  Import took 0.007149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.906134 seconds.
-  path: Packages/com.unity.animation.rigging/Editor/Unity.Animation.Rigging.Editor.asmdef
-  artifactKey: Guid(af4a3ceb227b8f94cb8375f40e156398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/Editor/Unity.Animation.Rigging.Editor.asmdef using Guid(af4a3ceb227b8f94cb8375f40e156398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578284bec5ea5e2b6284946514ee06bf') in 0.003490 seconds 
-  Import took 0.005810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.081468 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd
-  artifactKey: Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd using Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1985abddfd9bb7a67d9bc9dc1d55e266') in 0.025052 seconds 
-  Import took 0.027605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@64.png
-  artifactKey: Guid(e7d39c395cf7645cd9ccbd5db71ca241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@64.png using Guid(e7d39c395cf7645cd9ccbd5db71ca241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3696f8e52788b34f5eb2096eb2a1844e') in 0.029142 seconds 
-  Import took 0.031339 seconds .
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ThunderboltExplosion.prefab
+  artifactKey: Guid(c1fb627f8ba7ce6438167f13bec2be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ThunderboltExplosion.prefab using Guid(c1fb627f8ba7ce6438167f13bec2be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6fbe994853b3d2b2a6220612a0fc97') in 0.042469 seconds 
+  Import took 0.045456 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000145 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
-  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4772f5132af1c7e6fd51c0d05a0e1ad1') in 0.007027 seconds 
-  Import took 0.008977 seconds .
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion.prefab
+  artifactKey: Guid(f2cec9fd01e349f418008078bcb2765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion.prefab using Guid(f2cec9fd01e349f418008078bcb2765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836bfad4f3ffe433b5f078dcd0529a2c') in 0.005022 seconds 
+  Import took 0.007371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@16.png
-  artifactKey: Guid(e019ddad0b8d441368ddf8980912eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@16.png using Guid(e019ddad0b8d441368ddf8980912eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aa3c211dbb900a03c4d656a19ddb15') in 0.006093 seconds 
-  Import took 0.008079 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ThunderboltExplosion.prefab
+  artifactKey: Guid(49c2c4f83125f374f83034d3039071a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ThunderboltExplosion.prefab using Guid(49c2c4f83125f374f83034d3039071a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7b82fb545925082c6684523c8b99f8') in 0.004878 seconds 
+  Import took 0.007676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@32.png
-  artifactKey: Guid(a9ef3a87566c94d37bb5e694f55df401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.animation.rigging/Editor/Icons/RuntimeRig@32.png using Guid(a9ef3a87566c94d37bb5e694f55df401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83645bc53c19e4962da91a323fdbbfc') in 0.006757 seconds 
-  Import took 0.008805 seconds .
+  Time since last request: 0.000158 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion.prefab
+  artifactKey: Guid(8a4aceaf2957c044480166b429f4c7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion.prefab using Guid(8a4aceaf2957c044480166b429f4c7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385854a19f186358ce93ddedb5f5824') in 0.006069 seconds 
+  Import took 0.008800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.239908 seconds.
-  path: Assets/Unity/ConstraintSamples/Scenes/mParent.unity
-  artifactKey: Guid(5383ddcfd4e544402ac694e4df94f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity/ConstraintSamples/Scenes/mParent.unity using Guid(5383ddcfd4e544402ac694e4df94f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68ceb3e633d6586b4b745ea1a568983') in 0.003870 seconds 
-  Import took 0.006266 seconds .
+  Time since last request: 0.000167 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text NoSmoke.prefab
+  artifactKey: Guid(8d8c3ce0a8226854bb5fac9304ec8669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text NoSmoke.prefab using Guid(8d8c3ce0a8226854bb5fac9304ec8669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd970d05e3a73687c74a0fd4dcb4f3194') in 0.005201 seconds 
+  Import took 0.007880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004334 seconds.
-  path: Assets/Unity/ConstraintSamples/Scenes/mParent.unity
-  artifactKey: Guid(5383ddcfd4e544402ac694e4df94f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity/ConstraintSamples/Scenes/mParent.unity using Guid(5383ddcfd4e544402ac694e4df94f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68ceb3e633d6586b4b745ea1a568983') in 0.002924 seconds 
-  Import took 0.005091 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion NoSmoke.prefab
+  artifactKey: Guid(e7a1d0bf030dda147bc543bbd59f8608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion NoSmoke.prefab using Guid(e7a1d0bf030dda147bc543bbd59f8608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c286c642eda9df2f1f0140feebff92cc') in 0.005017 seconds 
+  Import took 0.007624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.878308 seconds.
-  path: Assets/Unity/ConstraintSamples
-  artifactKey: Guid(549e70ef22bd741d68e1012fbac1fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity/ConstraintSamples using Guid(549e70ef22bd741d68e1012fbac1fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226aa2822634a758b37acc77030568dd') in 0.003885 seconds 
-  Import took 0.006445 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion.prefab
+  artifactKey: Guid(9f18ee4ac76f92f469346d34cc24cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion.prefab using Guid(9f18ee4ac76f92f469346d34cc24cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc77791cf241b695800c5e2667ff71') in 0.005184 seconds 
+  Import took 0.007696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.073907 seconds.
-  path: Assets/Unity/ConstraintSamples/Scenes
-  artifactKey: Guid(9aabccbf9c9cd5943add302018910a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity/ConstraintSamples/Scenes using Guid(9aabccbf9c9cd5943add302018910a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f966b7e4759f476277d33791adbdd2a7') in 0.002970 seconds 
-  Import took 0.005426 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosion.prefab
+  artifactKey: Guid(f4eccd837e38e66479c94b552a191d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosion.prefab using Guid(f4eccd837e38e66479c94b552a191d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a023ea1c5bc79b4258bdf931465968f4') in 0.010050 seconds 
+  Import took 0.013291 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005627 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1893 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.5 MB.
-System memory in use after: 89.6 MB.
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke+Text.prefab
+  artifactKey: Guid(ff603a5c6ea52f943b91ebf74f513828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke+Text.prefab using Guid(ff603a5c6ea52f943b91ebf74f513828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c98838de4fb7968172eca32a8b44a00') in 0.005720 seconds 
+  Import took 0.008547 seconds .
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 1.989800 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.698100 ms  DeleteObjects: 0.057600 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text.prefab
+  artifactKey: Guid(e463141fb849fa84eba84b8688640df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text.prefab using Guid(e463141fb849fa84eba84b8688640df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e374062c27470c53b615f0fda2c1d6') in 0.005276 seconds 
+  Import took 0.007997 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosionAlt.prefab
+  artifactKey: Guid(1b2f8e049c22af2438cac65a921271a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosionAlt.prefab using Guid(1b2f8e049c22af2438cac65a921271a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c149e99d45f0edbdf10bb1cb5fa09') in 0.005894 seconds 
+  Import took 0.008768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosion.prefab
+  artifactKey: Guid(646d8ce832714ff4d9fb29973186759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosion.prefab using Guid(646d8ce832714ff4d9fb29973186759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb32316bc369a8ef8db5cd01f2e0e6b') in 0.005100 seconds 
+  Import took 0.007824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text.prefab
+  artifactKey: Guid(58213e333a1312245b035a80c7f719fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text.prefab using Guid(58213e333a1312245b035a80c7f719fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f4e79c91ee30abac1defddafb40fd9') in 0.005476 seconds 
+  Import took 0.008199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text NoSmoke.prefab
+  artifactKey: Guid(1b0a08f44ea1f8a4793c93cc4da89c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text NoSmoke.prefab using Guid(1b0a08f44ea1f8a4793c93cc4da89c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c2dea1cce56487c3be4dd607c5356a') in 0.005338 seconds 
+  Import took 0.008133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosionAlt.prefab
+  artifactKey: Guid(bb31e906aa29746418e55b53910da517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosionAlt.prefab using Guid(bb31e906aa29746418e55b53910da517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bb805ec4be80c535109174108aa634') in 0.005388 seconds 
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B+Text.prefab
+  artifactKey: Guid(4248653bb6c17194a992d147a16458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B+Text.prefab using Guid(4248653bb6c17194a992d147a16458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66cd97bf86c8da10856aad8c36dcfd3') in 0.006143 seconds 
+  Import took 0.009162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B+Text.prefab
+  artifactKey: Guid(abc73d3beeae237469014a13caeae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B+Text.prefab using Guid(abc73d3beeae237469014a13caeae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e20923bc3a881280f3e5515b30a93a') in 0.005035 seconds 
+  Import took 0.007777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big.prefab
+  artifactKey: Guid(d09eb7e3662b53c4abf3889d45fd69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big.prefab using Guid(d09eb7e3662b53c4abf3889d45fd69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7312d8a6cb53b1235551828a5fc765') in 0.005183 seconds 
+  Import took 0.007836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab
+  artifactKey: Guid(46876a2780737ec45a19d62f88e5ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab using Guid(46876a2780737ec45a19d62f88e5ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d65e45bfd6f53928a4c77d10ddbfc0') in 0.005589 seconds 
+  Import took 0.008506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosion.prefab
+  artifactKey: Guid(7e60b394ca1a53242bdbce72432ccafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosion.prefab using Guid(7e60b394ca1a53242bdbce72432ccafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268fde893b23b0823673e04b3689e14') in 0.005581 seconds 
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion (Colored).prefab
+  artifactKey: Guid(35739ea6b60c29848a057ac8c7774830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion (Colored).prefab using Guid(35739ea6b60c29848a057ac8c7774830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7d16271962f05df7145071d4c94c05') in 0.005215 seconds 
+  Import took 0.007804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion (Colored).prefab
+  artifactKey: Guid(cc6e41e2952486045bb23f8319fb10bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion (Colored).prefab using Guid(cc6e41e2952486045bb23f8319fb10bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e5a1d5359b5fac8b8580e50dfb4268') in 0.005280 seconds 
+  Import took 0.008386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big (Colored).prefab
+  artifactKey: Guid(00c65275be49a0a4e8f58a10cd548f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big (Colored).prefab using Guid(00c65275be49a0a4e8f58a10cd548f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb4c7e6e69d778beb2fd3a94a115e38') in 0.004874 seconds 
+  Import took 0.007364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big.prefab
+  artifactKey: Guid(055b9a89354106b4e878044d7c873d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big.prefab using Guid(055b9a89354106b4e878044d7c873d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a739550deb9da4a5d900b4b4e6694b') in 0.005288 seconds 
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big (Colored).prefab
+  artifactKey: Guid(f519944e3b39ba24f8c6b235db6ff3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big (Colored).prefab using Guid(f519944e3b39ba24f8c6b235db6ff3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b52d925db346fca73b22a144c77b7b') in 0.005338 seconds 
+  Import took 0.008264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosionAlt.prefab
+  artifactKey: Guid(2a4d2a4a68e3e1d41afe9474ab4cfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosionAlt.prefab using Guid(2a4d2a4a68e3e1d41afe9474ab4cfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34b529f43c2494a50fc3e76996d585f') in 0.005329 seconds 
+  Import took 0.007890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion.prefab
+  artifactKey: Guid(de73b98ff812c774783bd145fc25cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion.prefab using Guid(de73b98ff812c774783bd145fc25cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1411bfee156f83c90bc0c0dd98830cc7') in 0.005233 seconds 
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosion.prefab
+  artifactKey: Guid(c6f0dc0eae58dbe4da95e62a8373ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosion.prefab using Guid(c6f0dc0eae58dbe4da95e62a8373ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549d5c2e6329fdfd68a04fb353668d7') in 0.005374 seconds 
+  Import took 0.008320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke.prefab
+  artifactKey: Guid(9b52372500fcd2345a1495ed4183ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke.prefab using Guid(9b52372500fcd2345a1495ed4183ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717f3b2245363b0ec42b86a84a1a5bd6') in 0.005731 seconds 
+  Import took 0.008360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosionAlt.prefab
+  artifactKey: Guid(714fe68d1bdbba84f9ee530135492817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosionAlt.prefab using Guid(714fe68d1bdbba84f9ee530135492817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e949f8803aaef1d8684e1bbb0014339d') in 0.006975 seconds 
+  Import took 0.010035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B.prefab
+  artifactKey: Guid(d66753d5d4f468a44a28da452df41667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B.prefab using Guid(d66753d5d4f468a44a28da452df41667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38a821ba468e30df0d95c6bec9eb46f') in 0.005170 seconds 
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke.prefab
+  artifactKey: Guid(ea8d4d88d088d504bb062f572c875401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke.prefab using Guid(ea8d4d88d088d504bb062f572c875401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f747b15cea60d7492f9b29c132ba842c') in 0.005612 seconds 
+  Import took 0.008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B.prefab
+  artifactKey: Guid(f43435781114624418ca42a563284b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B.prefab using Guid(f43435781114624418ca42a563284b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da19794f431a555a5be52b74bc9521') in 0.005002 seconds 
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.753146 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Blue).prefab
+  artifactKey: Guid(57a79e6cc462e1540963f8e1c1cd1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Blue).prefab using Guid(57a79e6cc462e1540963f8e1c1cd1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4004d0a03059f5a3126daeb46e2779e7') in 0.012793 seconds 
+  Import took 0.015640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Hot).prefab
+  artifactKey: Guid(b42aa3f5250af22429aa13485faa9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Hot).prefab using Guid(b42aa3f5250af22429aa13485faa9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6fb5c3a0402d7ef75431369821a53b') in 0.006806 seconds 
+  Import took 0.009331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red).prefab
+  artifactKey: Guid(800f1682b2899944eb58bf76b4abc283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red).prefab using Guid(800f1682b2899944eb58bf76b4abc283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4df4105cd9c7c908338d36ac99146fd') in 0.005706 seconds 
+  Import took 0.008356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow).prefab
+  artifactKey: Guid(bc82b8a9c38043c40bb0edf85230edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow).prefab using Guid(bc82b8a9c38043c40bb0edf85230edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6ff8b3d3853e5fb413d151ec07c51e') in 0.005653 seconds 
+  Import took 0.008119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Purple).prefab
+  artifactKey: Guid(414e4df555cfc5f49a980ff8e796a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Purple).prefab using Guid(414e4df555cfc5f49a980ff8e796a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfc802d09d05a190f125fe08e2d2e1c') in 0.009851 seconds 
+  Import took 0.012489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Yellow).prefab
+  artifactKey: Guid(6f69198eb66969647af475dbfd6227b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Yellow).prefab using Guid(6f69198eb66969647af475dbfd6227b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e1577fbd23fd23040a932255f54811') in 0.006410 seconds 
+  Import took 0.009066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Multicolor).prefab
+  artifactKey: Guid(2a0f27a5218a2ee49acf011074e81c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Multicolor).prefab using Guid(2a0f27a5218a2ee49acf011074e81c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2949608403f97793f9a44f778010fae1') in 0.007410 seconds 
+  Import took 0.010331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Blue).prefab
+  artifactKey: Guid(fa4ce03d0e3bd324f98e52fa7b972e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 3 (Blue).prefab using Guid(fa4ce03d0e3bd324f98e52fa7b972e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a31654499211e121906f2fa97306fc') in 0.006342 seconds 
+  Import took 0.009063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red, Green).prefab
+  artifactKey: Guid(e9d5ffc9a0b719c4cbc3381d7e827f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Red, Green).prefab using Guid(e9d5ffc9a0b719c4cbc3381d7e827f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a210045bfc6720dd995bbab912b8ea') in 0.006753 seconds 
+  Import took 0.009411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow, Purple).prefab
+  artifactKey: Guid(e4fb4061c5b0b4c4882a3be14e895adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Yellow, Purple).prefab using Guid(e4fb4061c5b0b4c4882a3be14e895adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83aedbecfb99b5afa6f324fb1df1e4af') in 0.006762 seconds 
+  Import took 0.009720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Green).prefab
+  artifactKey: Guid(841bbe509e936df41ad4305ae9f6d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Green).prefab using Guid(841bbe509e936df41ad4305ae9f6d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25caa0b00e3b63233c63280fb5616d7') in 0.006196 seconds 
+  Import took 0.008772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Multicolor).prefab
+  artifactKey: Guid(eeb5e4d232d95f7478aedf5d523835c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Multicolor).prefab using Guid(eeb5e4d232d95f7478aedf5d523835c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2c99f2d3c5b5480cea4f659f960055') in 0.005709 seconds 
+  Import took 0.008398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Cold).prefab
+  artifactKey: Guid(f4b85cffa7ba79e4aa77bc7af76250ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX Remaster/CFXR Prefabs/Explosions/Variants/CFXR Firework 1 (Cold).prefab using Guid(f4b85cffa7ba79e4aa77bc7af76250ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c0055801bf57044febe22606eec1a3') in 0.006432 seconds 
+  Import took 0.009089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.651626 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)
+  artifactKey: Guid(d461a53a06299a545950f98de1c9b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile) using Guid(d461a53a06299a545950f98de1c9b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553bf05296e37d6dcdf17368e43ebcfb') in 0.003678 seconds 
+  Import took 0.006341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.004266 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Blue.prefab
+  artifactKey: Guid(8afba8ae0938326458ff00ad47d6fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Blue.prefab using Guid(8afba8ae0938326458ff00ad47d6fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a467682d144ad628a7bd9ccf1427a1bf') in 0.006255 seconds 
+  Import took 0.009048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Green.prefab
+  artifactKey: Guid(347c8b74a9579074cb4b5bfd3edd3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Green.prefab using Guid(347c8b74a9579074cb4b5bfd3edd3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5295024382f770ff5caeab3441721847') in 0.004546 seconds 
+  Import took 0.006888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Red.prefab
+  artifactKey: Guid(9e111226068b0b84bb62cee938c8f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Red.prefab using Guid(9e111226068b0b84bb62cee938c8f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0609aa0006d98ed89ba713c92a082f') in 0.004668 seconds 
+  Import took 0.007015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Orange.prefab
+  artifactKey: Guid(5072556484c5d2340a58458c7abc1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Orange.prefab using Guid(5072556484c5d2340a58458c7abc1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b45b5df6c76796a0148d6f3531011fb') in 0.004811 seconds 
+  Import took 0.007241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568952 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Firework.prefab
+  artifactKey: Guid(4c7e29b3646b436489a8a75f688a24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Firework.prefab using Guid(4c7e29b3646b436489a8a75f688a24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123412f6181ea39887621149cddccf74') in 0.009074 seconds 
+  Import took 0.011818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.806284 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_AlphaBlendedPremult.mat
+  artifactKey: Guid(601bc8dff269e1d4ba669d8f1f04c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_AlphaBlendedPremult.mat using Guid(601bc8dff269e1d4ba669d8f1f04c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a773a3b2e6d6bf537f4931c82d46ab9') in 0.064701 seconds 
+  Import took 0.067522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022099 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_AlphaBlendedPremult.mat
+  artifactKey: Guid(601bc8dff269e1d4ba669d8f1f04c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_AlphaBlendedPremult.mat using Guid(601bc8dff269e1d4ba669d8f1f04c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a773a3b2e6d6bf537f4931c82d46ab9') in 0.008820 seconds 
+  Import took 0.011641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.567622 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Star Add.mat
+  artifactKey: Guid(b79a5d22e6ac4024db00b6c63b5e3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Star Add.mat using Guid(b79a5d22e6ac4024db00b6c63b5e3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfd2abdf680b99354932d0e5890abfd') in 0.011136 seconds 
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.822323 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle_AddSoft.mat
+  artifactKey: Guid(79220e4fd451ede47b95fd2057726b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle_AddSoft.mat using Guid(79220e4fd451ede47b95fd2057726b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a56ca567d2e4cb3195556ec36a9005c') in 0.011665 seconds 
+  Import took 0.014457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863738 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosionAlt.prefab
+  artifactKey: Guid(bb31e906aa29746418e55b53910da517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosionAlt.prefab using Guid(bb31e906aa29746418e55b53910da517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e49300f0b20b8e5f67a95fcdf4169f') in 0.005158 seconds 
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.599207 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosionAlt.prefab
+  artifactKey: Guid(714fe68d1bdbba84f9ee530135492817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosionAlt.prefab using Guid(714fe68d1bdbba84f9ee530135492817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6111d5056bcef710e653d03be75b4aad') in 0.005255 seconds 
+  Import took 0.008497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.452115 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Anim4_RoundedLines.png
+  artifactKey: Guid(c4ae3c91e6fc9e74cbdb7ab481e93576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Anim4_RoundedLines.png using Guid(c4ae3c91e6fc9e74cbdb7ab481e93576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1707c093a4296aca10ba69e469313db7') in 0.037763 seconds 
+  Import took 0.040662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065722 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Smoke_4Frames.tga
+  artifactKey: Guid(220b7a5502dd1984e874ca0721ba9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Smoke_4Frames.tga using Guid(220b7a5502dd1984e874ca0721ba9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84cb13e35d1cf75513af1a60e9d28d8') in 0.009490 seconds 
+  Import took 0.012479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072157 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Anim8_Triangle2.png
+  artifactKey: Guid(633bf7faf7cbe504384f3949c8c218c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Anim8_Triangle2.png using Guid(633bf7faf7cbe504384f3949c8c218c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1220d309c53b43945a795120d85d90af') in 0.006573 seconds 
+  Import took 0.009240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028051 seconds.
+  path: Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Poof_Add.mat
+  artifactKey: Guid(234bfa79157b81447988e4c1e8130eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Particles Asset/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Poof_Add.mat using Guid(234bfa79157b81447988e4c1e8130eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae3afa98b66bd60b98a5809e519f8c8') in 0.008314 seconds 
+  Import took 0.011008 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
